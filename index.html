@@ -15,14 +15,18 @@
             <a href="" class="menu__logo"><img src="img/ЛОГО РГСУ Пятигорск.png" alt="" class="menu__img"></a>
         </div>
 
-        <div class="center">
+          <div class="center">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btnBurg" for="menu__toggle">
+              <span></span>
+            </label>
             <ul class="menu__ul">
-                <li class="menu_li"><a href="#main__h1" class="menu__a">Расписание</a></li>
-                <li class="menu_li"><a href="" class="menu__a">Специальности и цены</a></li>
-                <li class="menu_li"><a href="" class="menu__a">FAQ</a></li>
-                <li class="menu_li"><a href="" class="menu__a">Контакты</a></li>
+              <li class="menu__li"><a class="menu__item" href="#anchor__One">Расписание</a></li>
+              <li class="menu__li"><a class="menu__item" href="#anchor__Two">Специальности и цены</a></li>
+              <li class="menu__li"><a class="menu__item" href="#anchor__Three">FAQ</a></li>
+              <li class="menu__li"><a class="menu__item" href="#anchor__Four">Контакты</a></li>
             </ul>
-        </div>
+          </div>
 
         <div class="end">
             <p class="menu__text">г. Пятигорск <br> 8 (928) 348-84-84</p>
@@ -153,7 +157,7 @@
     </div>
 
     <div class="program">
-        <h2>Мы приготовили масштабную очную программу для тех,
+        <h2 id="anchor__One">Мы приготовили масштабную очную программу для тех,
             кто готов приехать к нам лично.</h2>
         <ul class="program__ul">
             <li class="program__li">
@@ -232,7 +236,7 @@
     </div>
 
     <div class="specialist">
-        <h2>Мы подготавливаем лучших специалистов</h2>
+        <h2 id="anchor__Two">Мы подготавливаем лучших специалистов</h2>
         <p class="specialist__text">Российский государственный социальный университет – ведущее учреждение в области социальных наук в России, странах СНГ и Балтии. <br> Университет стал первым вузом в Российской Федерации, запустившим образовательные программы в сферах <br> социальной работы, социальной психологии и социальной педагогики. <br> <br>
             Филиал РГСУ в г. Пятигорске осуществляет образовательную деятельность в соответствие с высокими <br> стандартами головного вуза при этом обладает своими уникальными чертами.</p>
 
@@ -823,8 +827,8 @@
                 <img src="img/ДОД 30 апреля.png" class="training__img">
             </div>
         
-            <a class="prev" onclick="minusSlide()"><img src="img/arrowLeft.svg" alt=""class='img__pytigorsk'></a>
-            <a class="next" onclick="plusSlide()"><img src="img/arrowRight.svg" alt=""class='img__pytigorsk'></a>
+            <a class="prev" onclick="minusSlide()"><img src="img/arrowLeft.svg" alt=""class='img__pytigorskLeftOne'></a>
+            <a class="next" onclick="plusSlide()"><img src="img/arrowRight.svg" alt=""class='img__pytigorskRightOne'></a>
         </div>
     </div>
 
@@ -884,15 +888,15 @@
                 
             </div>
         
-            <a class="pytigorsk__prev" onclick="minusSlideTwo()"><img src="img/arrowLeft.svg" alt=""class='img__pytigorsk'></a>
-            <a class="pytigorsk__next" onclick="plusSlideTwo()"><img src="img/arrowRight.svg" alt=""class='img__pytigorsk'></a>
+            <a class="pytigorsk__prev" onclick="minusSlideTwo()"><img src="img/arrowLeft.svg" alt=""class='img__pytigorskLeftTwo'></a>
+            <a class="pytigorsk__next" onclick="plusSlideTwo()"><img src="img/arrowRight.svg" alt=""class='img__pytigorskRightTwo'></a>
         </div>
     </div>
     </div>
     <div class="proud">
         <h2>Нам есть, чем гордиться</h2>
         <div class="achievements__slider">
-                <a onclick="minusSlideThree()"><img src="img/arrowLeft.svg" alt=""class='img__pytigorsk'>
+                <a onclick="minusSlideThree()"><img src="img/arrowLeft.svg" alt=""class='img__pytigorskLeft'>
                 </a>
                 <div class="achievements__slider--block">
                     <div class="achievements__slider--left">
@@ -931,7 +935,7 @@
                         </span>
                     </div>
                 </div>
-                <a onclick="plusSlideThree()"><img src="img/arrowRight.svg" alt=""class='img__pytigorsk'>
+                <a onclick="plusSlideThree()"><img src="img/arrowRight.svg" alt=""class='img__pytigorskRight'>
                 </a>
             </div>
     </div>
@@ -967,7 +971,7 @@
     </div>
 
     <div class="questions">
-        <h2>Часто задаваемые вопросы</h2>
+        <h2 id="anchor__Three">Часто задаваемые вопросы</h2>
         <ul class="questions__ul">
             <li class="questions__li">
                 <div class="questions__containerOne">
@@ -1106,7 +1110,7 @@
     <div class="map">
         <div class="map__info">
             <div class="map__left">
-                <h2 class="map__h2">Контакты</h2>
+                <h2 class="map__h2" id="anchor__Four">Контакты</h2>
                 <a href="tel: 8 (928) 348-84-84" class="map__phoneOne">✆ 8 (928) 348-84-84</a>
                 <a href="tel: 8 (8793) 33-60-97" class="map__phoneTwo">✆ 8 (8793) 33-60-97</a>
                 <a href="tel: 8 (495) 255-67-67" class="map__phoneThree"> ✆8 (495) 255-67-67</a>
