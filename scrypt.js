@@ -23,24 +23,6 @@ let btnArrowSix = document.querySelector('#btnArrowSix');
 let formatBtn = document.querySelector('#formatBtn');
 
 
-btnTOne.addEventListener('click', function(){
-    containerOne.classList.toggle('container__block');
-    containerTwo.classList.add('container__block');
-    containerThree.classList.add('container__block');
-});
-
-btnTwo.addEventListener('click', function(){
-    containerOne.classList.add('container__block');
-    containerTwo.classList.toggle('container__block');
-    containerThree.classList.add('container__block');
-})
-
-btnThree.addEventListener('click', function(){
-    containerOne.classList.add('container__block');
-    containerTwo.classList.add('container__block');
-    containerThree.classList.toggle('container__block');
-})
-
 
 /* Индекс слайда по умолчанию */
 var slideIndex = 1;
@@ -229,3 +211,18 @@ btnArrowSix.addEventListener('click', function(){
 formatBtn.addEventListener('click', function(){
     alert('Вы успешно отправили')
 });
+
+var modelOne = document.querySelector('#modelOne')
+function oneF(){
+    modelOne.classList.toggle('modelity');
+} 
+
+var modelTwo = document.querySelector('#modelTwo')
+function TwoF(){
+    modelTwo.classList.toggle('modelity');
+} 
+
+var modelThree = document.querySelector('#modelThree')
+function ThreeF(){
+    modelThree.classList.toggle('modelity');
+} 
